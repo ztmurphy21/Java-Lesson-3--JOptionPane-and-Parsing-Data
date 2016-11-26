@@ -19,6 +19,8 @@ public class PersonName {
         //converting from string to double for age
         int age = Integer.parseInt(inputAge);
         
+        
+        //output
         JOptionPane.showMessageDialog(null, "Hello " + fullName + " you are " + age + " years old." );
         
     }
